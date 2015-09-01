@@ -168,8 +168,11 @@ sub before_process {
 }
 
 =head2 process_ehlo( $session, $name )
+
 =head2 process_mail( $session, $addr )
+
 =head2 process_rcpt( $session, $addr )
+
 =head2 process_data( $session, \$data )
 
 Overwrite on of this methods in a subclass if you need to
