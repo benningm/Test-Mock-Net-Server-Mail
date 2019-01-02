@@ -86,6 +86,18 @@ DISTRIBUTIONS
       perl 5.006001
       strict 0
       warnings 0
+  B-Hooks-OP-Check-0.22
+    pathname: E/ET/ETHER/B-Hooks-OP-Check-0.22.tar.gz
+    provides:
+      B::Hooks::OP::Check 0.22
+    requirements:
+      DynaLoader 0
+      ExtUtils::Depends 0.302
+      ExtUtils::MakeMaker 0
+      parent 0
+      perl 5.008001
+      strict 0
+      warnings 0
   B-Keywords-1.19
     pathname: R/RU/RURBAN/B-Keywords-1.19.tar.gz
     provides:
@@ -93,6 +105,17 @@ DISTRIBUTIONS
     requirements:
       B 0
       ExtUtils::MakeMaker 0
+  CPAN-Changes-0.400002
+    pathname: H/HA/HAARG/CPAN-Changes-0.400002.tar.gz
+    provides:
+      CPAN::Changes 0.400002
+      CPAN::Changes::Group undef
+      CPAN::Changes::Release undef
+      Test::CPAN::Changes 0.400002
+    requirements:
+      ExtUtils::MakeMaker 0
+      Text::Wrap 0.003
+      version 0.9906
   CPAN-Uploader-0.103013
     pathname: R/RJ/RJBS/CPAN-Uploader-0.103013.tar.gz
     provides:
@@ -317,6 +340,34 @@ DISTRIBUTIONS
       Sub::Install 0.921
       strict 0
       warnings 0
+  Data-Perl-0.002009
+    pathname: M/MA/MATTP/Data-Perl-0.002009.tar.gz
+    provides:
+      Data::Perl 0.002009
+      Data::Perl::Bool 0.002009
+      Data::Perl::Code 0.002009
+      Data::Perl::Collection::Array 0.002009
+      Data::Perl::Collection::Hash 0.002009
+      Data::Perl::Counter 0.002009
+      Data::Perl::Number 0.002009
+      Data::Perl::Role::Bool 0.002009
+      Data::Perl::Role::Code 0.002009
+      Data::Perl::Role::Collection::Array 0.002009
+      Data::Perl::Role::Collection::Hash 0.002009
+      Data::Perl::Role::Counter 0.002009
+      Data::Perl::Role::Number 0.002009
+      Data::Perl::Role::String 0.002009
+      Data::Perl::String 0.002009
+    requirements:
+      Class::Method::Modifiers 0
+      ExtUtils::MakeMaker 6.30
+      List::MoreUtils 0
+      List::Util 0
+      Module::Runtime 0
+      Role::Tiny 0
+      Scalar::Util 0
+      parent 0
+      strictures 0
   Data-Section-0.200007
     pathname: R/RJ/RJBS/Data-Section-0.200007.tar.gz
     provides:
@@ -1253,6 +1304,51 @@ DISTRIBUTIONS
       Module::CPANfile 0.903
       Try::Tiny 0.1
       perl 5.008001
+  Dist-Zilla-Plugin-ReadmeAnyFromPod-0.163250
+    pathname: R/RT/RTHOMPSON/Dist-Zilla-Plugin-ReadmeAnyFromPod-0.163250.tar.gz
+    provides:
+      Dist::Zilla::Plugin::ReadmeAnyFromPod 0.163250
+    requirements:
+      Dist::Zilla::File::InMemory 0
+      Dist::Zilla::Role::AfterBuild 0
+      Dist::Zilla::Role::AfterRelease 0
+      Dist::Zilla::Role::FileGatherer 0
+      Dist::Zilla::Role::FileMunger 0
+      Dist::Zilla::Role::FilePruner 0
+      Dist::Zilla::Role::FileWatcher 0
+      Dist::Zilla::Role::PPI 0
+      Encode 0
+      ExtUtils::MakeMaker 0
+      List::Util 1.33
+      Moose 0
+      Moose::Util::TypeConstraints 0
+      MooseX::Has::Sugar 0
+      PPI::Document 0
+      Path::Tiny 0.004
+      Pod::Markdown 2.000
+      Pod::Markdown::Github 0
+      Pod::Simple::HTML 3.23
+      Pod::Simple::Text 3.23
+      Scalar::Util 0
+      perl 5.008
+      strict 0
+      warnings 0
+  Dist-Zilla-Plugin-ReadmeFromPod-0.37
+    pathname: F/FA/FAYLAND/Dist-Zilla-Plugin-ReadmeFromPod-0.37.tar.gz
+    provides:
+      Dist::Zilla::Plugin::ReadmeFromPod 0.37
+    requirements:
+      Dist::Zilla 6.000
+      Dist::Zilla::File::InMemory 0
+      Dist::Zilla::Role::FilePruner 0
+      Dist::Zilla::Role::InstallTool 5
+      ExtUtils::MakeMaker 0
+      IO::String 0
+      List::Util 1.33
+      Moose 0
+      Path::Tiny 0.004
+      Pod::Readme v1.2.0
+      perl 5.006
   Dist-Zilla-Plugin-Test-Perl-Critic-3.001
     pathname: E/ET/ETHER/Dist-Zilla-Plugin-Test-Perl-Critic-3.001.tar.gz
     provides:
@@ -1271,6 +1367,22 @@ DISTRIBUTIONS
       Test::Perl::Critic 0
       namespace::autoclean 0
       perl 5.008
+      strict 0
+      warnings 0
+  Dist-Zilla-Role-FileWatcher-0.006
+    pathname: E/ET/ETHER/Dist-Zilla-Role-FileWatcher-0.006.tar.gz
+    provides:
+      Dist::Zilla::Role::File::ChangeNotification 0.006
+      Dist::Zilla::Role::FileWatcher 0.006
+    requirements:
+      Digest::MD5 0
+      Dist::Zilla 4.300039
+      Encode 0
+      Module::Build::Tiny 0.039
+      Moose::Role 0
+      Safe::Isa 0
+      namespace::autoclean 0
+      perl 5.006
       strict 0
       warnings 0
   Dist-Zilla-Role-ModuleMetadata-0.006
@@ -1341,6 +1453,16 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       strict 0
       warnings 0
+  ExtUtils-Depends-0.405
+    pathname: X/XA/XAOC/ExtUtils-Depends-0.405.tar.gz
+    provides:
+      ExtUtils::Depends 0.405
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      IO::File 0
+      perl 5.006
   ExtUtils-Helpers-0.026
     pathname: L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz
     provides:
@@ -1469,6 +1591,20 @@ DISTRIBUTIONS
       File::Spec 0
       IO::Dir 0
       perl 5.006
+      strict 0
+      warnings 0
+  File-Slurp-9999.25
+    pathname: C/CA/CAPOEIRAB/File-Slurp-9999.25.tar.gz
+    provides:
+      File::Slurp 9999.25
+    requirements:
+      B 0
+      Carp 0
+      Errno 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      POSIX 0
       strict 0
       warnings 0
   File-Which-1.23
@@ -2225,6 +2361,22 @@ DISTRIBUTIONS
       Sub::Defer 2.003001
       Sub::Quote 2.003001
       perl 5.006
+  MooX-HandlesVia-0.001008
+    pathname: M/MA/MATTP/MooX-HandlesVia-0.001008.tar.gz
+    provides:
+      Data::Perl::Bool::MooseLike 0.001008
+      Data::Perl::Collection::Array::MooseLike 0.001008
+      Data::Perl::Collection::Hash::MooseLike 0.001008
+      Data::Perl::Number::MooseLike 0.001008
+      Data::Perl::String::MooseLike 0.001008
+      MooX::HandlesVia 0.001008
+    requirements:
+      Class::Method::Modifiers 0
+      Data::Perl 0.002006
+      ExtUtils::MakeMaker 0
+      Module::Runtime 0
+      Moo 1.003000
+      Role::Tiny 0
   Moose-2.2011
     pathname: E/ET/ETHER/Moose-2.2011.tar.gz
     provides:
@@ -3634,6 +3786,67 @@ DISTRIBUTIONS
       Mixin::Linewise::Readers 0.102
       strict 0
       warnings 0
+  Pod-Markdown-3.101
+    pathname: R/RW/RWSTAUNER/Pod-Markdown-3.101.tar.gz
+    provides:
+      Pod::Markdown 3.101
+      Pod::Perldoc::ToMarkdown 3.101
+    requirements:
+      Encode 0
+      ExtUtils::MakeMaker 0
+      Getopt::Long 0
+      Pod::Simple 3.27
+      Pod::Simple::Methody 0
+      Pod::Usage 0
+      parent 0
+      perl 5.008
+      strict 0
+      warnings 0
+  Pod-Markdown-Github-0.03
+    pathname: M/MI/MINIMAL/Pod-Markdown-Github-0.03.tar.gz
+    provides:
+      Pod::Markdown::Github 0.03
+    requirements:
+      ExtUtils::MakeMaker 0
+      Getopt::Long 0
+      Pod::Markdown 0
+      Pod::Usage 0
+      parent 0
+      perl 5.008
+      strict 0
+      warnings 0
+  Pod-Readme-v1.2.3
+    pathname: R/RR/RRWO/Pod-Readme-v1.2.3.tar.gz
+    provides:
+      Pod::Readme v1.2.3
+      Pod::Readme::Filter v1.2.3
+      Pod::Readme::Plugin v1.2.3
+      Pod::Readme::Plugin::changes v1.2.3
+      Pod::Readme::Plugin::requires v1.2.3
+      Pod::Readme::Plugin::version v1.2.3
+      Pod::Readme::Types v1.2.3
+    requirements:
+      CPAN::Changes 0.30
+      CPAN::Meta 0
+      Class::Method::Modifiers 0
+      ExtUtils::MakeMaker 0
+      File::Slurp 0
+      Getopt::Long::Descriptive 0
+      Hash::Util 0
+      List::Util 1.33
+      Module::CoreList 0
+      Moo 0
+      Moo::Role 0
+      MooX::HandlesVia 0
+      Path::Tiny 0
+      Pod::Simple 0
+      Role::Tiny 0
+      Scalar::Util 0
+      Try::Tiny 0
+      Type::Tiny 1.000000
+      Types::Standard 0
+      namespace::autoclean 0
+      perl 5.010001
   Pod-Spell-1.20
     pathname: D/DO/DOLMEN/Pod-Spell-1.20.tar.gz
     provides:
@@ -4498,6 +4711,50 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Type-Tiny-1.004002
+    pathname: T/TO/TOBYINK/Type-Tiny-1.004002.tar.gz
+    provides:
+      Devel::TypeTiny::Perl56Compat 1.004002
+      Devel::TypeTiny::Perl58Compat 1.004002
+      Error::TypeTiny 1.004002
+      Error::TypeTiny::Assertion 1.004002
+      Error::TypeTiny::Compilation 1.004002
+      Error::TypeTiny::WrongNumberOfParameters 1.004002
+      Eval::TypeTiny 1.004002
+      Reply::Plugin::TypeTiny 1.004002
+      Test::TypeTiny 1.004002
+      Type::Coercion 1.004002
+      Type::Coercion::FromMoose 1.004002
+      Type::Coercion::Union 1.004002
+      Type::Library 1.004002
+      Type::Params 1.004002
+      Type::Parser 1.004002
+      Type::Registry 1.004002
+      Type::Tiny 1.004002
+      Type::Tiny::Class 1.004002
+      Type::Tiny::Duck 1.004002
+      Type::Tiny::Enum 1.004002
+      Type::Tiny::Intersection 1.004002
+      Type::Tiny::Role 1.004002
+      Type::Tiny::Union 1.004002
+      Type::Utils 1.004002
+      Types::Common::Numeric 1.004002
+      Types::Common::String 1.004002
+      Types::Standard 1.004002
+      Types::Standard::ArrayRef 1.004002
+      Types::Standard::CycleTuple 1.004002
+      Types::Standard::Dict 1.004002
+      Types::Standard::HashRef 1.004002
+      Types::Standard::Map 1.004002
+      Types::Standard::ScalarRef 1.004002
+      Types::Standard::StrMatch 1.004002
+      Types::Standard::Tied 1.004002
+      Types::Standard::Tuple 1.004002
+      Types::TypeTiny 1.004002
+    requirements:
+      Exporter::Tiny 0.026
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
   URI-1.74
     pathname: E/ET/ETHER/URI-1.74.tar.gz
     provides:
@@ -4642,6 +4899,38 @@ DISTRIBUTIONS
       Test::Fatal 0.014
       perl 5.008000
       version 0.77
+  bareword-filehandles-0.006
+    pathname: I/IL/ILMARI/bareword-filehandles-0.006.tar.gz
+    provides:
+      bareword::filehandles 0.006
+    requirements:
+      B::Hooks::OP::Check 0
+      ExtUtils::Depends 0
+      ExtUtils::MakeMaker 0
+      Test::More 0.88
+      XSLoader 0
+      if 0
+      perl 5.008001
+      strict 0
+      warnings 0
+  indirect-0.38
+    pathname: V/VP/VPIT/indirect-0.38.tar.gz
+    provides:
+      indirect 0.38
+    requirements:
+      Carp 0
+      Config 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      IO::Handle 0
+      IO::Select 0
+      IPC::Open3 0
+      POSIX 0
+      Socket 0
+      Test::More 0
+      XSLoader 0
+      lib 0
+      perl 5.008001
   libwww-perl-6.36
     pathname: E/ET/ETHER/libwww-perl-6.36.tar.gz
     provides:
@@ -4704,6 +4993,21 @@ DISTRIBUTIONS
       perl 5.008001
       strict 0
       warnings 0
+  multidimensional-0.014
+    pathname: I/IL/ILMARI/multidimensional-0.014.tar.gz
+    provides:
+      multidimensional 0.014
+    requirements:
+      B::Hooks::OP::Check 0.19
+      CPAN::Meta 2.112580
+      ExtUtils::Depends 0
+      ExtUtils::MakeMaker 0
+      Test::More 0.88
+      XSLoader 0
+      if 0
+      perl 5.008001
+      strict 0
+      warnings 0
   namespace-autoclean-0.28
     pathname: E/ET/ETHER/namespace-autoclean-0.28.tar.gz
     provides:
@@ -4726,6 +5030,16 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Package::Stash 0.23
       perl 5.008001
+  strictures-2.000005
+    pathname: E/ET/ETHER/strictures-2.000005.tar.gz
+    provides:
+      strictures 2.000005
+      strictures::extra undef
+    requirements:
+      bareword::filehandles 0
+      indirect 0
+      multidimensional 0
+      perl 5.006
   syntax-0.004
     pathname: P/PH/PHAYLON/syntax-0.004.tar.gz
     provides:

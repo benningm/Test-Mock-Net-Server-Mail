@@ -29,5 +29,7 @@ on 'develop' => sub {
   requires 'Dist::Zilla::Plugin::Test::Perl::Critic';
   requires 'Dist::Zilla::PluginBundle::Basic';
   requires 'Dist::Zilla::PluginBundle::Git';
+  requires 'Dist::Zilla::Plugin::ReadmeAnyFromPod';
+  requires 'Dist::Zilla::Plugin::ReadmeFromPod';
 };
 
