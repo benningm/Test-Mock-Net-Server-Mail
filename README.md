@@ -98,6 +98,16 @@ By default:
       QUIT
     )
 
+# METHODS
+
+## port
+
+Retrieve the port of the running mock server.
+
+## pid
+
+Retrieve the process id of the running mock server.
+
 ## next\_log
 
 Reads one log from the servers log and returns a hashref.
@@ -122,16 +132,6 @@ Examples:
     $s->next_log_ok('RCPT', 'gooduser@gooddomain', 'server received RCPT command');
     $s->next_log_ok('DATA', qr/bad mail content/, 'server received DATA command');
     $s->next_log_ok('QUIT', undef, 'server received QUIT command');
-
-# METHODS
-
-## port
-
-Retrieve the port of the running mock server.
-
-## pid
-
-Retrieve the process id of the running mock server.
 
 ## before\_process( $smtp )
 
