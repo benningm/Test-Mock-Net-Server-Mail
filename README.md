@@ -4,7 +4,7 @@ Test::Mock::Net::Server::Mail - mock SMTP server for use in tests
 
 # VERSION
 
-version 1.01
+version 1.02
 
 # SYNOPSIS
 
